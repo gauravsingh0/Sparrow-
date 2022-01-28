@@ -75,13 +75,13 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 `Hellow` [🤗](https://telegra.ph/file/8adff3b0ac1189e0a2389.jpg) `My name is` *Sparrow✘*
-`I'm here to help you manage your groups! Hit` *📚Commands*   
+`I'm here to help you manage your groups! Hit` *Commands*   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ Add me to your chat ➕️", url="t.me/SparrowRobot?startgroup=true"),
+            text="Add me to your char", url="t.me/SparrowRobot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="About", callback_data="sparrow_"),
